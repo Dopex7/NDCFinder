@@ -11,17 +11,17 @@ NDCFinder is a Laravel-based web application that allows users to search, save, 
 
 
 
-- Logic Description
+# Logic Description
 
 
--The application lets users search for one or more NDC codes at once.
+- The application lets users search for one or more NDC codes at once.
 
--It first checks if the codes exist in the local database.
+- It first checks if the codes exist in the local database.
 
--Missing codes are fetched from the OpenFDA API in bulk to reduce requests.
+- Missing codes are fetched from the OpenFDA API in bulk to reduce requests.
 
--Retrieved API results are saved locally for future queries.
+- Retrieved API results are saved locally for future queries.
 
--Users can view saved products, delete them, and export the list as CSV.
+- Users can view saved products, delete them, and export the list as CSV.
 
--The app requires users to be authenticated for all features.
+- The app requires users to be authenticated for all features.
