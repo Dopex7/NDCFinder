@@ -9,7 +9,9 @@ NDCFinder is a Laravel-based web application that allows users to search, save, 
    git clone https://github.com/Dopex7/NDCFinder.git
    cd NDCFinder
 
-   Logic Description (Përshkrim i shkurtër i logjikës së implementuar)
+
+
+Logic Description
 -The application lets users search for one or more NDC codes at once.
 
 -It first checks if the codes exist in the local database.
